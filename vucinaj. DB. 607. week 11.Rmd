@@ -1,0 +1,45 @@
+---
+title: "Week 11 Discussion: Recommender Systems""
+author: "Marjete Vucinaj"
+date: "2022-11-02"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Your task is to:Identify a recommender system web site, then Answer the three scenario design questions for this web site. 
+yelp is a  platform for food/ restaurant recomendations.
+
+## 1. Who are your target users?
+The target users are people who need information about a specific type of food, resturants by best reviews/highest stars, or in a specific location ect. 
+
+## 2. What are their key goals?
+Yelp being a trusted/reliable source for suggestions. https://trust.yelp.com/recommendation-software/
+The goal of the organization is to also have business' involved and I feel like is also to provide transparency through allowing access to https://www.yelp.com/dataset.
+The goal for users is to be able to easily find the information on the service or restaurant they might want to visit by trusting the reviews on yelp. Another goal users might also have is sharing their experiences and pictures ect to help with that process. 
+
+## 3. How can you help them accomplish those goals?
+I feel like sharing with others about this software might help accomplish this goal. I didnt realize that the automated software evaluates every review to identify the most helpful. Knowing that I will spend less time reading reviews and trust that that even just the first page is more than enough to have idea if I want to try a restaurant, for example, knowing that yelp has filtered out for bias' ect.
+
+## Design Analysis
+The page is designed for quick log in (through gmail, for me); there are several fields on the page and shifting images on the website. There is also a search bar where one can type any specific wording such as type of food, and location. In addition to reviews on restaurants, yelp also has drop downs for 'home services' 'auto services' and more....I dont think I everr noticed thi before. Below the shifting images (HVAC, home cleaner, and chimney sweep) is a 'recent activity 'section. Once a user clicks on one of the categories, these options appear for further filtering 'All, Price, Open Now, Offers Delivery'. The sponsored reviews have tags like 'elite 2022' and info next to the users name and imaage that inclides the number of reviews and images. 
+
+## Reverse Engineer 
+These are some of the factors that software looks for: conflicts of interest (reviews written by disgruntled employees), Solicited reviews (owner asked for them), Reliability (less active users might be unreliable) and Usefulness (excludes rants or unhelpful info). 
+
+## Recommendation 
+Reviews also have a botton to respond if its 'useful' 'funny' and/  'cool' options so users can respond to another person's review. I wonder if it would be userful to add other bottons like 'glad I read this before making reservation' (in a more concise way). Another suggestion would be to a feature that says not useful to help check the model. 
+
+
+
+
+
+
+
+
+
+
+
